@@ -1,0 +1,44 @@
+var emptyarray = []
+var key = "entototech";
+key.split('')
+if(key.length == 10){
+    for(var i= 0; i< 10; i++){
+        if(key[i] == "a" || key[i] == "b" || key[i] == "c"){
+          emptyarray[i] = 2;
+         
+        }
+  else if(key[i] == "d" || key[i] == "e"  || key[i] =="f"){
+        emptyarray[i] = 3;
+        
+      }
+    else if(key[i] == "g" || key[i] == "h"  || key[i] =="i"){
+        emptyarray[i] = 4;
+        
+      }
+    else if(key[i] == "j" || key[i] == "k"  || key[i] =="l"){
+        emptyarray[i] = 5;
+        
+      }
+    else if(key[i] == "m" || key[i] == "n"  || key[i] =="o"){
+        emptyarray[i] = 6;
+        
+      }
+    else if(key[i] == "p" || key[i] == "q"  || key[i] =="r" || key[i] =="s"){
+        emptyarray[i] = 7;
+        
+      }
+    else if(key[i] == "t" || key[i] == "u"  || key[i] =="v" ){
+        emptyarray[i] = 8;
+        
+      }
+     else
+     {
+        emptyarray[i] = 9;
+      }
+   }  
+  var display = '';
+     for(var index = 0; index < 10; index++){
+       var display = display + emptyarray[index];
+     }
+    console.log(display)              
+}
