@@ -44,6 +44,6 @@ if(key.length == 10){
 }
 else
   {
-    console.log("the char should be equal to 10")
+    console.log("the char should be 10")
     
   }
